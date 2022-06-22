@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="ItaiModelStoreContainer" CdmEntityContainer="DrinkEntities">
+    <EntitySetMapping Name="Drink">
+      <EntityTypeMapping TypeName="ItaiModel.Drink">
+        <MappingFragment StoreEntitySet="Drink">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="name" ColumnName="name" />
+          <ScalarProperty Name="price" ColumnName="price" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Purse">
+      <EntityTypeMapping TypeName="ItaiModel.Purse">
+        <MappingFragment StoreEntitySet="Purse">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="money" ColumnName="money" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
